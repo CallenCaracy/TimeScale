@@ -10,7 +10,8 @@ The project uses the following technologies:
 
 # **Frontend**
 - **Bun**: A fast JavaScript runtime for modern applications.
-- **TailwindCSS**: For styling and responsive design.
+- **React**: For building interactive user interfaces.
+- **SCSS**: For styling and responsive design.
 
 # **Backend**
 - **Elysia**: A lightweight web framework for Bun to handle routing and APIs.
@@ -26,16 +27,16 @@ project/
 ├── public/                   # Static assets like images, fonts, etc.
 │   └── index.html            # Main HTML file
 ├── src/                      # Source code
+│   ├── components/           # React components
 │   ├── routes/               # Elysia route handlers
 │   ├── middlewares/          # Middleware functions
 │   ├── utils/                # Helper functions and utilities
-│   ├── styles/               # Tailwind CSS or other styles
-│   │   └── main.css          # Main CSS file
-│   ├── main.ts               # Entry point for the Elysia app
+│   ├── styles/               # SCSS styles
+│   │   └── main.scss         # Main SCSS file
+│   ├── main.tsx              # Entry point for the React app
 │   └── config.ts             # Configuration (e.g., Supabase keys)
 ├── supabase/                 # SQL scripts or Supabase setup
 ├── bunfig.toml               # Bun configuration file
-├── tailwind.config.js        # TailwindCSS configuration
 └── README.md                 # Project documentation
 ```
 
@@ -44,7 +45,7 @@ project/
 - **User Authentication**: Secure login/signup using Supabase.
 - **Schedule Management**: Add, edit, delete, and view events.
 - **Real-time Updates**: Changes are instantly reflected across devices.
-- **Responsive Design**: Optimized for desktop and mobile using TailwindCSS.
+- **Responsive Design**: Optimized for desktop and mobile using SCSS.
 
 # **Getting Started**
 
@@ -68,14 +69,14 @@ project/
    bun install
    ```
 
-4. Run Tailwind to build styles:
+4. Compile SCSS to CSS:
    ```bash
-   tailwindcss -i ./src/styles/main.css -o ./public/style.css --watch
+   sass src/styles/main.scss public/style.css --watch
    ```
 
 5. Start the development server:
    ```bash
-   bun run src/main.ts
+   bun run src/main.tsx
    ```
 
 6. Open the app in your browser:
