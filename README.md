@@ -100,15 +100,10 @@ Contributions are welcome! Please follow these steps:
    ```
 5. Open a pull request.
 
-# **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
 # **Contact**
 
 For questions or feedback, please reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: diangcocalen@gmail.com
+- **GitHub**: https://github.com/CallenCaracy
 
