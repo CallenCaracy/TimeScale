@@ -2,7 +2,7 @@
 
 # Personal Schedule Maker
 
-Welcome to the **Personal Schedule Maker** project! This application allows users to efficiently manage their schedules, track events, and plan activities in an intuitive and user-friendly interface.
+Welcome to the **TimeScale** project! This application allows users to efficiently manage their schedules, track events, and plan activities in an intuitive and user-friendly interface.
 
 # **Tech Stack**
 
